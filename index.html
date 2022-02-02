@@ -1,13 +1,526 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+ 
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="color/default.css" rel="stylesheet" media="screen">
+
+
 </head>
+
 <body>
-    
-    <h1>Hello</h1>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Logo text or image -->
+        <a class="navbar-brand" href="index.html">
+          <img src="img/CUARClogo.png" alt="" style="max-width: 160px; margin-top: -25px; max-height: 70px" /> </a>
+
+
+      </div>
+      <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="current">
+            <a href="#intro">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#competition">Competition</a>
+          </li>
+          <li>
+            <a href="#subteams">Teams</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#recruitment">Recruitment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- intro area -->
+  <div id="intro">
+    <div class="intro-text">
+      <div class="container">
+        <div class="col-md-12">
+          <div id="rotator">
+            <h1>
+              <span>Cornell Aerial Robotics </span>
+            </h1>
+            <div class="line-spacer"></div>
+            <p>
+              <span>Exploring the future of robotics</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>About us</h2>
+            <div class="heading-line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img src="img/about-img.jpg" alt="">
+        </div>
+
+        <div class="col-md-6 content">
+          <p>Founded in 2017, we are a team focused on building both controlled and autonomous drones to compete in
+            the International Aerial Robotics Competition. The primary purpose of the IARC is to move the state-of-the-art
+            in aerial robotics forward through the creation of significant and useful mission challenges that are considered
+            'impossible' at the time that they are proposed. Through competing in these competitions students gain real life
+            experience for future success in industry.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax 1 -->
+
+  <!-- Competition -->
+  <section id="competition" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>The Competition</h2>
+            <div class="heading-line"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- slides -->
+
+      <div class="row">
+        <div class="col-sm-12 col-md-offset-1 col-md-6">
+          <div class="wow bounceInLeft">
+            <h4>Mission 9</h4>
+            <p> The current Mission 9 challenges teams to demonstrate new behaviors that have never before been attempted in any of the past IARC missions. Teams must create drones which can navigate fully autonomously, identify a target on a moving platform, manipulate objects mid flight, read text in russian, and speed through a 4 mile distance all in 9 minutes. Check out the video on the right for real life demonstration from the past 2017 competition.</p>
+            <p> For more information, check out their website: http://www.aerialroboticscompetition.org/
+              <p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-5">
+          <div class="screenshot wow bounceInRight">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/JknrXs-s7y8?start=210" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+            </div>
+
+
+            <!-- Indicators -->
+
+  </section>
+
+  <!-- Teams -->
+  <section id="subteams" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Teams</h2>
+            <div class="heading-line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carousel-service" class="service carousel slide">
+
+            <!-- slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Mechanical Team</h4>
+                      <p>The mechanical team is responsible for the overall physical of the drone. This includes designing and
+                        building the frame and aerodynamics of the drone. They also work closely together with the electrical
+                        team when mounting of the sensor to the drone.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/1.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Electrical Team</h4>
+                      <p>The electrical team is in charge of anything that requires any electronics or low level coding. They deal with power distribution, serial communication, sensors, wiring soldering, computer architecture and radio signals
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/e.jpg" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+             <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Computer Science Team</h4>
+                      <p>The computer science subteam makes the brains of the drone. They construct and implement the algorithms for object avoidance, path planning, communications, mission protocols and give the drone the awareness it needs to take on the challenges.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/ARCcsphoto.png" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-12 col-md-offset-1 col-md-6">
+                    <div class="wow bounceInLeft">
+                      <h4>Business Team</h4>
+                      <p>The business team is in charge of any business development, marketing, or outreach for the team. The
+                        team is also responsible for all the finances, website development, video editing, and potential
+                        business transactions.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-5">
+                    <div class="screenshot wow bounceInRight">
+                      <img src="img/screenshots/4.jpg" class="img-responsive" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-service" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-service" data-slide-to="1"></li>
+              <li data-target="#carousel-service" data-slide-to="2"></li>
+             <li data-target="#carousel-service" data-slide-to="3"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Team Members-->
+  <section id="members" class="home-section bg-gray">
+    <div class="container">
+      <div class="filter">
+        <h2>MEMBERS</h2>
+        <button data-name='*' class="btn bg-gray">All</button>
+        <button data-name=".Mechanical-Team" class="btn bg-gray">Mechanical Team</button>
+        <button data-name=".Electrical-Team" class="btn bg-gray">Electrical Team</button>
+        <button data-name=".Business-Team" class="btn bg-gray">Computer Science Team</button>
+      </div>
+      <div class="grid">
+        <div class="team-member">
+          <div class="grid-item Electrical-Team">
+            <div class="box-team wow bounceInUp">
+              <img src="Member-Profile-Pictures/Nicholas_George_2023.HEIC" alt="" class="img-circle img-responsive" />
+              <div class="text-pos">
+                <div class="name">Nicholas George</div>
+                <div class="major">Electrical and Computer Engineering</div>
+                <div class="year">2023</div>
+
+              </div>
+            </div>
+            <h5>President</h5>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="grid-item Mechanical-Team">
+            <div class="box-team wow bounceInUp">
+              <img src="Member-Profile-Pictures/Cole_Dawson_2023.HEIC" alt="" class="img-circle img-responsive" />
+              <div class="text-pos">
+                <div class="name">Cole Dawson</div>
+                <div class="major">Mechanical Engineering</div>
+                <div class="year">2023</div>
+              </div>
+            </div>
+           <h5>Vice President</h5>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="grid-item Electrical-Team">
+            <div class="box-team wow bounceInUp">
+              <img src="Member-Profile-Pictures/Juliet_DeNapoli_2023.HEIC" alt="" class="img-circle img-responsive" />
+              <div class="text-pos">
+                <div class="name">Juliet DeNapoli</div>
+                <div class="major">Electrical and Computer Engineering</div>
+                <div class="year">2023</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="grid-item Business-Team">
+            <div class="box-team wow bounceInUp">
+              <img src="Member-Profile-Pictures/Diego_Fernadez_2024.HEIC" alt="" class="img-circle img-responsive" />
+              <div class="text-pos">
+                <div class="name">Diego Fernandez</div>
+                <div class="major">Computer Science</div>
+                <div class="year">2024</div>
+              </div>
+            </div>
+           <h5>CS Subteam Co-Lead</h5>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="grid-item Business-Team">
+            <div class="box-team wow bounceInUp">
+              <img src="Member-Profile-Pictures/Dina_Brustein_2024.HEIC" alt="" class="img-circle img-responsive" />
+              <div class="text-pos">
+                <div class="name">Dina Brustein</div>
+                <div class="major">Computer Science</div>
+                <div class="year">2024</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="grid-item Business-Team">
+            <div class="box-team wow bounceInUp">
+              <img src="Member-Profile-Pictures/Eric_Zhang_2023.HEIC" alt="" class="img-circle img-responsive" />
+              <div class="text-pos">
+                <div class="name">Eric Zhang</div>
+                <div class="major">Computer Science</div>
+                <div class="year">2023</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="grid-item Business-Team">
+            <div class="box-team wow bounceInUp">
+              <img src="Member-Profile-Pictures/James_Goodling_2022.HEIC" alt="" class="img-circle img-responsive" />
+              <div class="text-pos">
+                <div class="name">James Goodling</div>
+                <div class="major">Computer Science</div>
+                <div class="year">2022</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="grid-item Business-Team">
+            <div class="box-team wow bounceInUp">
+              <img src="Member-Profile-Pictures/Mavis Lee 2023.HEIC" alt="" class="img-circle img-responsive" />
+              <div class="text-pos">
+                <div class="name">Mavis Lee</div>
+                <div class="major">Computer Science</div>
+                <div class="year">2023</div>
+              </div>
+            </div>
+           <h5>CS Subteam Co-Lead</h5>
+          </div>
+        </div>
+        <div class="team-member">
+          <div class="grid-item Electrical-Team">
+            <div class="box-team wow bounceInUp">
+                <img src="Member-Profile-Pictures/Omar_Elhousseni_2023.HEIC" alt="" class="img-circle img-responsive" />
+                <div class="text-pos">
+                <div class="name">Omar Elhousseni</div>
+                <div class="major">Electrical and Computer Engineering</div>
+                <div class="year">2023</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Recruitment -->
+  <section id="recruitment" class="home-section parallax bg-white" data-stellar-background-ratio="0.5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="color-dark">
+            <h2 class="wow bounceInDown" data-wow-delay="0.5s">RECRUITMENT</h2>
+            <p class="lead wow bounceInUp" data-wow-delay="1s"> Before applying please try to attend one of our info sessions. The zoom links are bellow. If you can't make any of them just email us at cornellaerialrobotics@gmail.com.</p>
+            <p class="lead wow bounceInUp" data-wow-delay="1s"> Tuesday 9/21 8:00 Info Session https://cornell.zoom.us/j/91425484491?pwd=OGg1b3pyRTFiVlBMMUdwQU8wWCtaQT09
+            <p class="lead wow bounceInUp" data-wow-delay="1s"> Wednesday 9/22 7:30 https://cornell.zoom.us/j/98476915726?pwd=MWkwTnAxZ3p2eEp2ZlMrQy9pZEpsUT09
+            <p class="lead wow bounceInUp" data-wow-delay="1s"> Thursday 9/23 7:30 https://cornell.zoom.us/j/99404205172?pwd=dVRBUE9mMHRhT3JIUEg2R3hBY0ZkQT09 
+            <p class="lead wow bounceInUp" data-wow-delay="1s"> 2021 Fall recruitment is looking for ECE, MechE and Buisness applicants.</p>
+            <p class="lead wow bounceInUp" data-wow-delay="1s"> Application due September October 1st. Here is the link: https://docs.google.com/forms/d/e/1FAIpQLSfuEBdw838m_bz3wYO-Nmf0PcFqCBV2-kDukfhfXv4taOrFTA/viewform?usp=sf_link </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>.
+
+  <!-- Bottom widget -->
+  <section id="bottom-widget" class="home-section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInLeft">
+            <i class="fa fa-map-marker fa-4x"></i>
+            <h5>Main Office</h5>
+            <p>
+              1 Musk Lane,
+              <br />Mars
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInUp">
+            <i class="fa fa-phone fa-4x"></i>
+            <h5>Call</h5>
+            <p>
+             +1 340-626-7923
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-widget wow bounceInRight">
+            <i class="fa fa-envelope fa-4x"></i>
+            <h5>Email us</h5>
+            <p>
+              cornellaerialrobotics@gmail.com
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row mar-top30">
+        <div class="col-md-12">
+          <h5>We're on social networks</h5>
+          <ul class="social-network">
+            <li>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="fa-stack fa-2x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <a href="#" class="back-to-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+
+  <!-- js -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/mb.bgndGallery.js"></script>
+  <script src="js/mb.bgndGallery.effects.js"></script>
+  <script src="js/jquery.simple-text-rotator.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Custom Javascript File -->
+  <script src="js/custom.js"></script>
+  <script>
+    var $grid = $('.grid').isotope({
+      itemSelector: '.grid-item',
+      layoutMode: 'fitRows',
+      getSortData: {
+        name: function (element) {
+          return $(element).text();
+        }
+      }
+    });
+    $('.filter button').on("click", function () {
+      var value = $(this).attr('data-name');
+      $grid.isotope({
+        filter: value
+      });
+      $('.filter button').removeClass('active');
+      $(this).addClass('active');
+    })
+    $('.sort button').on("click", function () {
+      var value = $(this).attr('data-name');
+      $grid.isotope({
+        sortBy: value
+      });
+      $('.sort button').removeClass('active');
+      $(this).addClass('active');
+    })
+  </script>
+
 </body>
+
 </html>
