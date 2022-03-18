@@ -178,6 +178,7 @@ nav.navbar.fixed-to-top{
 	-o-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
 	outline: 0;
+	background-color: steelblue;
 }
 
 /* brand / logo */
@@ -798,6 +799,7 @@ more media queries
 
 	header{
 		padding-bottom: 50px;
+		
 		min-height: 1000px;
 		height: 100%;
 	}

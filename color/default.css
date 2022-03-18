@@ -21,7 +21,8 @@ a, a:hover {
 }
 
 .navbar-default {
-  background: #ce1e1e;
+  background: steelblue;
+  /*margin-bottom:50rem;*/
 }
 
 .form-control:focus {

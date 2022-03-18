@@ -92,7 +92,7 @@
 				height: "100%",
 				overflow: "hidden",
 				"-webkit-transform-style": "flat",
-				"-webkit-transform": "translateZ(0)",
+				"-webkit-transform": "translateZ(100)",
 				"z-index": 0
 			};
 			el.opt.gallery.css( css );
@@ -229,10 +229,10 @@
 				var wAspectRatio = jQuery( containment ).width() / jQuery( containment ).height();
 				if( aspectRatio >= wAspectRatio ) {
 					image.css( "height", "100%" );
-					image.css( "width", "auto" );
+					image.css( "width", "100%" );
 				} else {
 					image.css( "width", "100%" );
-					image.css( "height", "auto" );
+					image.css( "height", "100%" );
 				}
 				image.css( "margin-left", ( ( jQuery( containment ).width() - image.width() ) / 2 ) );
 
@@ -652,7 +652,7 @@
 				}
 
 				var controls = jQuery( el.opt.controls ).clone( true ).addClass( "fullScreen_controls" ).css( {
-					position: "absolute",
+					position: "relative",
 					zIndex: 1000,
 					bottom: 20,
 					right: 20
@@ -668,9 +668,9 @@
 					height: "100%",
 					top: 0,
 					left: 0,
-					position: "absolute"
+					position: "relative"
 
-				}, 500 );
+				}, 1000 );
 
 				launchFullscreen( el.opt.gallery.get( 0 ) );
 
