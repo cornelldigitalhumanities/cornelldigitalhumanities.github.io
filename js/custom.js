@@ -19,10 +19,10 @@
     scrollOffset: 0
   });
 
-  $(".navbar-collapse a").on('click', function() {
+  /*$(".navbar-collapse a").on('click', function() {
     $(".navbar-collapse.collapse").removeClass('in');
   });
-
+*/
   //Home Background Slider
 
   $(function() {
@@ -59,7 +59,10 @@
       images: [
         "img/bgslides/1.jpeg",
         "img/bgslides/2.jpeg",
-        /*"img/bgslides/3.jpg"*/
+        "img/pastprojects/3.jpg",
+        "img/pastprojects/4.jpg",
+        "img/pastprojects/5.jpg"
+
       ],
 
       onStart: function() {},

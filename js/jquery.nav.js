@@ -56,12 +56,12 @@
 			self.config = $.extend({}, self.defaults, self.options, self.metadata);
 			
 			//Filter any links out of the nav
-			if(self.config.filter !== '') {
+			/*if(self.config.filter !== '') {
 				self.$nav = self.$nav.filter(self.config.filter);
-			}
+			}*/
 			
 			//Handle clicks on the nav
-			self.$nav.on('click.onePageNav', $.proxy(self.handleClick, self));
+			//self.$nav.on('click.onePageNav', $.proxy(self.handleClick, self));
 
 			//Get the section positions
 			self.getPositions();
